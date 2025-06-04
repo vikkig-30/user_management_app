@@ -1,16 +1,23 @@
-# user_bloc_app
+# Flutter User Management App
 
-A new Flutter project.
+## Project Overview
+This Flutter app demonstrates user management by integrating with the DummyJSON API. It features:
 
-## Getting Started
+- Fetching and displaying a paginated list of users with infinite scrolling
+- Real-time search by user name
+- Viewing detailed user information, including posts and todos
+- Adding new posts locally
+- State management with BLoC pattern for scalable, maintainable code
+- Loading indicators and proper error handling
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+- Flutter SDK installed ([Install Guide](https://flutter.dev/docs/get-started/install))
+- Android Studio, VS Code, or another IDE with Flutter plugin
+- A connected device or emulator to run the app
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/user_management_app.git
